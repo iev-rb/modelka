@@ -7,15 +7,10 @@ $this->pageTitle=Yii::app()->name . ' - Login';
 $this->breadcrumbs=array(
 	'Login',
 );
-
-
 ?>
 
-
 <h1>Регистрация</h1>
-
 <p>Введите имя пользователя и пароль для регистрации</p>
-
 <div class="form">
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'register-form',
